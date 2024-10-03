@@ -9,11 +9,11 @@ void game(int random) {
 	while (random != user ) {
 		cin >> user;
 		if (user < random) {
-			cout << "Guess is too low \n";
+			cout << "Guess is low \n";
 			count++;
 		}
 		else if (user > random) {
-			cout << "Guess is too high \n";
+			cout << "Guess is high \n";
 			count++;
 		}
 		else {
